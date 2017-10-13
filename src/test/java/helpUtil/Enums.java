@@ -6,7 +6,11 @@ public class Enums{
 		chrome,
 		safari,
 		ie,
-		test;
+		test,
+		asdasdas,
+		sadsa;
+		
+		
 
 		public static Browsers browserForName(String browser) throws IllegalArgumentException{
 	        for(Browsers b: values()){
